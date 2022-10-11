@@ -1,0 +1,505 @@
+{
+   "awake":
+   {
+     "wake_words":
+     [
+        "wake up daddy is home",
+        "are you up",
+        "you there",
+        "are you there",
+        "wake up",
+        "daddy is home",
+        "daddy's home",
+        "hello",
+        "whats up",
+        "hallo"
+     ],
+      "response":
+      [
+        "for you always",
+        "at your service",
+        "welcome home sir"
+     ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "confirmation":
+   {
+      "wake_words":
+      [
+         "yes",
+         "if it is possible",
+         "do it"
+      ],
+      "response":
+      [
+         "on it sir",
+         "no worries i will take care of it"
+      ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "declining":
+   {
+      "wake_words":
+      [
+          "do not do it",
+          "no",
+          "don't you dare"
+      ],
+     "response":
+     [
+          "okay will not do it",
+          "declined"
+     ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "polite":
+   {
+      "wake_words":
+      [
+         "please"
+      ],
+      "response":
+      [
+         "off course",
+         "with pleasure"
+      ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "time":
+   {
+      "wake_words":
+      [
+         "current time",
+         "time now",
+         "tell current time",
+         "tell time now",
+         "what time is it"
+      ],
+      "response":
+      [
+         "The current time is ",
+         "it is now"
+      ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "date":
+   {
+      "wake_words":
+      [
+         "what date is it",
+         "current date",
+         "current day",
+         "date of today",
+         "tell current date",
+         "tell current day",
+         "date today"
+      ],
+      "response":
+      [
+         "The current date is ",
+         "it is now"
+      ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "cursing":
+   {
+      "wake_words":
+      [
+         "arse",
+         "arses",
+         "arsehole",
+         "arseholes",
+         "arseniggas",
+         "bastard",
+         "bitch",
+         "bitchblower",
+         "bitches",
+         "bitched",
+         "bitching",
+         "boner",
+         "clusterfuck",
+         "cock",
+         "cockface",
+         "cockhead",
+         "cocks",
+         "cocksucker",
+         "cocksuckers",
+         "cocksuck",
+         "cocksucking",
+         "cunt",
+         "cuntslut",
+         "dick",
+         "dickhead",
+         "dammit",
+         "dumbcunt",
+         "dumbfuck",
+         "dumbshit",
+         "frick",
+         "fricking",
+         "fuck",
+         "fucks",
+         "fucker",
+         "fuckers",
+         "fucking",
+         "fucking hell",
+         "fuckinghell",
+         "goddamn",
+         "goddamned",
+         "goddamning",
+         "goddamnit",
+         "god damn it",
+         "god dammit",
+         "jackarse",
+         "jerking off",
+         "jerkoff",
+         "jizz",
+         "lardarse",
+         "mcfaggot",
+         "mcfaggots",
+         "motherfucker",
+         "motherfuckers",
+         "motherfucking",
+         "nutfucker",
+         "pom",
+         "pommy",
+         "porn",
+         "porno",
+         "poonani",
+         "prick",
+         "pricks",
+         "shit",
+         "shitter",
+         "shittiest",
+         "shitting",
+         "shits",
+         "skullfucker",
+         "thundercunt",
+         "twatfucker",
+         "unclefucker",
+         "vag",
+         "wank",
+         "whore",
+         "whorebag",
+         "whoreface",
+         "wog"
+      ],
+      "response":
+      [
+         "language",
+         "oohoo, and you kiss your mother with that mouth",
+         "take a deep breath",
+         "and for god sake, watch your language"
+      ],
+      "handled_by": [
+         "discord",
+         "microphone"
+      ]
+   },
+   "programs":
+   {
+      "Windows":
+      [
+         {
+            "type": "open_executable",
+            "wake_words":
+            [
+               "open minecraft",
+               "open game minecraft",
+               "open great game minecraft"
+            ],
+            "response":
+            [
+               "Opening minecraft"
+            ],
+            "folder": "C:\\XboxGames\\Minecraft Launcher\\Content\\",
+            "file_name": "Minecraft",
+            "handled_by": [
+               "discord",
+               "microphone"
+            ]
+         },
+         {
+            "type": "website",
+            "wake_words":
+            [
+               "open google",
+               "open website google"
+            ],
+            "response":
+            [
+               "opening google",
+               "giving you access to the world wide web",
+               "opening the world wide web"
+            ],
+            "url": "www.google.com",
+            "handled_by": [
+               "discord",
+               "microphone"
+            ]
+         },
+         {
+            "type": "voice_search",
+            "wake_words":
+            [
+                "need search web",
+                "searched on web"
+            ],
+            "response":
+            [
+               "what do you want to have searched",
+               "what can i search for you"
+            ],
+            "handled_by": [
+               "discord",
+               "microphone"
+            ]
+         },
+         {
+            "type": "website",
+            "wake_words":
+            [
+               "open personal github page",
+               "open personal project page",
+               "show personal github page",
+               "show personal project page"
+            ],
+            "response":
+            [
+               "opening personal github page",
+               "opening personal project page",
+               "showing personal github page",
+               "showing personal project page"
+            ],
+            "url": "https://github.com/Dominique1997",
+            "handled_by": [
+               "discord",
+               "microphone"
+            ]
+         },
+         {
+            "type": "website",
+            "wake_words":
+            [
+               "open professional github site",
+               "open professional project page",
+               "show professional github page",
+               "show professional project page",
+               "open professional project site"
+            ],
+            "response":
+            [
+               "opening professional github page",
+               "opening professional project page",
+               "showing professional github page",
+               "showing professional project page"
+            ],
+            "url": "https://github.com/it-specteurLiebens",
+            "handled_by": [
+               "discord",
+               "microphone"
+            ]
+         }
+      ]
+   },
+   "github":
+   [
+      {
+         "private": "Dominique1997",
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      {
+         "professional": "it-specteurLiebens",
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      }
+   ],
+   "status":
+   {
+      "booting":
+      {
+         "morning":
+         [
+            "good morning sir. I hope you slept well"
+         ],
+         "afternoon":
+         [
+            "good afternoon sir. Great to see you here."
+         ],
+         "evening":
+         [
+            "good evening. How was your day"
+         ],
+         "night":
+         [
+            "oh hello sir. Working late today?"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      "booted":
+      {
+         "morning": ["ready to help"],
+         "afternoon": ["how can i serve you"],
+         "evening": ["I am ready for action"],
+         "night": ["sure, you need me now?"],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      "closing":
+      {
+         "wake_words":
+         [
+            "good night",
+            "i need to go",
+            "see you later",
+            "gotta go"
+         ],
+         "morning":
+         [
+            "have a great day sir",
+            "hope your day goes well"
+         ],
+         "afternoon":
+         [
+            "enjoy your afternoon",
+            "enjoy the rest of your day"
+         ],
+         "evening":
+         [
+            "enjoy dinner",
+            "maybe i see you later"
+         ],
+         "night":
+         [
+            "sleep well sir",
+            "hope you sleep well"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      }
+   },
+   "network":
+   [
+      {
+         "type": "upload",
+         "wake_words":
+         [
+            "current upload speed",
+            "what current upload speed",
+            "what upload speed",
+            "upload speed"
+         ],
+         "response":
+         [
+            "Your current upload speed is",
+            "Uploading at"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      {
+         "type": "download",
+         "wake_words":
+         [
+            "current download speed",
+            "what current download speed",
+            "what download speed",
+            "download speed"
+         ],
+         "response":
+         [
+            "Your current download speed is",
+            "Downloading at"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      {
+         "type": "ip_wan",
+         "wake_words":
+         [
+            "Current wan ip",
+            "What current wan ip",
+            "What wan ip"
+         ],
+         "response":
+         [
+            "Your wan ip is",
+            "Wide area network ip is"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      {
+         "type": "ip_lan",
+         "wake_words":
+         [
+            "current lan ip",
+            "what current lan ip",
+            "what lan ip",
+            "ip lan"
+         ],
+         "response":
+         [
+            "Your lan ip is",
+            "Local area network ip is"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      },
+      {
+         "type": "overview",
+         "wake_words":
+         [
+            "perform network checkup",
+            "create overview",
+            "overview"
+         ],
+         "response":
+         [
+            "Overview is ready"
+         ],
+         "handled_by": [
+            "discord",
+            "microphone"
+         ]
+      }
+   ]
+}
